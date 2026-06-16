@@ -26,11 +26,11 @@ namespace pr7._1
           WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
-        private void btnEvent_Click(object sender, RoutedEventArgs e)
+        private void btnEvent_Click_1(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Я первая в очереди.", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Information);
             Random rnd = new Random();
-            switch (rnd.Next(0,5))
+            switch (rnd.Next(0, 5))
             {
                 case 0:
                     MessageBox.Show("Клеопатра жила за 2000 лет до изобретения помады, но использовала сок ягод и толчёных муравьёв.", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Information);

@@ -17,8 +17,8 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="444*"/>
-            <ColumnDefinition Width="279*"/>
-            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="253*"/>
+            <ColumnDefinition Width="133*"/>
             <ColumnDefinition Width="120*"/>
         </Grid.ColumnDefinitions>
         <TextBox HorizontalAlignment="Left" Margin="85,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Height="121" BorderBrush="Transparent" IsReadOnlyCaretVisible="True" SelectionBrush="Transparent" Grid.Column="1">
@@ -26,15 +26,15 @@
                 <ImageBrush ImageSource="/i (1) (2).png"/>
             </TextBox.Background>
         </TextBox>
-        <Button x:Name="btnAnswer" Content="Ответить" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" BorderBrush="White" Click="btnEvent_Click_1" Grid.Row="1" Grid.Column="2" Height="20" Width="54" Margin="10,6,0,0" RenderTransformOrigin="-1.567,0.232">
+        <Button x:Name="btnAnswer" Content="💬Ответить" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="Black" BorderBrush="White" Click="btnEvent_Click_1" Grid.Row="1" Grid.Column="2" Height="26" Width="93" Margin="0,3,0,0" RenderTransformOrigin="-1.567,0.232" FontFamily="Segoe UI">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFADFF6B" Offset="0"/>
-                    <GradientStop Color="#FFA9C884" Offset="1"/>
-                    <GradientStop Color="#FF64FF75"/>
+                    <GradientStop Color="#FFB284C8" Offset="1"/>
+                    <GradientStop Color="#FFED63BC"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
